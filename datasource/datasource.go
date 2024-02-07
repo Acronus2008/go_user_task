@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var DSN = "host=cl-saas-db-dev.c3u65yjjhoev.us-east-1.rds.amazonaws.com user=saas_root password=3st3t1p03s3lr00t dbname=saas port=5432 sslmode=disable TimeZone=America/Santiago"
+var DSN = "host=localhost user=root password=root dbname=db port=5432 sslmode=disable TimeZone=America/Santiago"
 var DB *gorm.DB
 
 func DatasourceConnection() {
